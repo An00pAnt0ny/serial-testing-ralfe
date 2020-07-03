@@ -59,13 +59,13 @@ void medicineTakenStatus()
     break;
   }
   delay(1000);
+ } 
  if(flag==0);
   {
     Serial.print("N");
     callgsm();
      
     }
-}
 }
 
 
