@@ -19,14 +19,14 @@ void setup()
 }
 void loop()
 {
-  Serial.println("y")
+  Serial.println("Time for medicine")
   delay(2000);
   medicineTray(45);
 
-  Serial.println("y");
+  Serial.println("Time for medicine");
   delay(2000);
   medicineTray(90);
-  Serial.println("y")
+  Serial.println("Time for medicine")
 
     
     
@@ -62,14 +62,14 @@ void medicineTakenStatus()
  if(flag==0);
   {
     Serial.print("N");
-    callgsm();
+    gsmCall();
      
     }
 }
 }
 
 
-void callgsm()
+void gsmCall()
 {
 delay(3000);
 Serial.print("ATD");; //Dial the phone number using ATD command
